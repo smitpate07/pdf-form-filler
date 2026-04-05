@@ -123,3 +123,9 @@ Each row maps one PDF field to one Google Sheet column. Add as many rows as need
 - PDF.co output URLs expire after 1 hour — the Download and Upload nodes must run immediately after the fill step
 - Free plan supports up to 200 API credits/month — each form fill costs <> credit
 - The workflow handles missing fields gracefully — if a sheet column has no value, that field is skipped
+
+## Demo Video
+
+https://github.com/user-attachments/assets/1b95dc21-3084-4a1a-90c4-7bea3355d519
+
+
