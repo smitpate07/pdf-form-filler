@@ -125,7 +125,10 @@ Each row maps one PDF field to one Google Sheet column. Add as many rows as need
 - The workflow handles missing fields gracefully — if a sheet column has no value, that field is skipped
 
 ## Demo Video
-
-https://github.com/user-attachments/assets/1b95dc21-3084-4a1a-90c4-7bea3355d519
+<div>
+    <a href="https://www.loom.com/share/744742334f3349909b50520bd0958187">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/744742334f3349909b50520bd0958187-ce6fd7d96c765e50-full-play.gif#t=0.1">
+    </a>
+  </div>
 
 
