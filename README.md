@@ -36,27 +36,13 @@ For **20 people × 20 forms = 400 manual operations** — easily a full day's wo
 
 ## Real-World Use Cases
 
-### 1. HR & Onboarding
-New employees need to fill out offer letters, tax forms, benefits enrollment, emergency contact forms, and NDAs all at once. HR teams typically spend days manually filling these out for each new hire. This workflow pulls employee data from a Google Sheet and fills all onboarding documents in one run — reducing onboarding paperwork from days to minutes.
-
-### 2. Healthcare & Patient Management
-Clinics and hospitals require patients to complete intake forms, consent forms, insurance forms, and medical history documents. With this workflow, patient data entered once in a spreadsheet automatically populates all required forms before appointments, eliminating duplicate data entry by staff.
-
-### 3. Legal & Contract Management
-Law firms and legal departments deal with high volumes of contracts, affidavits, court filings, and agreements that share common fields like names, addresses, and dates. This workflow fills all related documents simultaneously from a single client record.
-
-### 4. Education & Student Administration
-Schools and universities process enrollment forms, scholarship applications, financial aid documents, and parental consent forms for hundreds of students. This workflow handles bulk processing across all forms for all students in a single execution.
-
-### 5. Real Estate
-Real estate agencies process lease agreements, property disclosure forms, mortgage applications, and inspection reports for each client. The workflow auto-fills all transaction documents the moment a deal is initiated.
-
-### 6. Government & Compliance
-Government agencies and compliance teams deal with regulatory filings, license applications, and audit documents that require the same data repeated across multiple forms. This workflow ensures consistency and eliminates transcription errors across all submissions.
-
-### 7. Insurance
-Insurance companies process claims, policy documents, beneficiary forms, and coverage agreements. This workflow fills all policy-related documents for each client automatically when a new policy is created.
-
+| # | Industry | Who Uses It | Forms Involved | Time Saved |
+|---|---|---|---|---|
+| 1 | **HR & Onboarding** | HR teams onboarding new hires | Offer letters, tax forms, NDAs, benefits enrollment, emergency contact forms | Days → Minutes |
+| 2 | **Healthcare** | Clinics, hospitals, private practices | Patient intake, consent forms, insurance claims, medical history documents | Hours per patient → Seconds |
+| 3 | **Legal** | Law firms, legal departments | Contracts, affidavits, court filings, client agreements | Hours per client → Minutes |
+| 4 | **Education** | Schools, universities, admin teams | Enrollment forms, scholarship applications, financial aid, parental consent | Days per intake → Minutes |
+| 5 | **Real Estate** | Agencies, brokers, property managers | Lease agreements, disclosure forms, mortgage applications, inspection reports | Hours per deal → Minutes |
 ---
 
 ## High-Level Challenges & How This Workflow Solves Them
@@ -78,9 +64,9 @@ Insurance companies process claims, policy documents, beneficiary forms, and cov
 ## Workflow Architecture
 
 ```
-Google Sheets (People Data)
+Google Sheets
         ↓
-Split in Batches (1 person at a time)
+Split in Batches
         ↓
 Google Sheets (Field Mapping Tab)
         ↓
@@ -93,6 +79,7 @@ HTTP Request → Download filled PDF
 Google Drive (Upload filled PDF)
 ```
 
+![Flow](images/flow.png)
 ---
 
 ## Prerequisites
@@ -105,30 +92,17 @@ Google Drive (Upload filled PDF)
 
 ---
 
-## Field Mapping Tab Structure
-
-| Form Token | PDF Field Name | Sheet Column |
-|---|---|---|
-| filetoken://abc123 | full_name | Name |
-| filetoken://abc123 | email_address | Email |
-| filetoken://xyz789 | taxpayer_name | Name |
-| filetoken://xyz789 | phone | Phone Number |
-
-Each row maps one PDF field to one Google Sheet column. Add as many rows as needed for each form.
-
----
-
 ## Notes
 
 - PDF.co output URLs expire after 1 hour — the Download and Upload nodes must run immediately after the fill step
-- Free plan supports up to 200 API credits/month — each form fill costs <> credit
+- Free plan supports up to 200 API credits/month — each form fill costs 21 credits for 1 page.
 - The workflow handles missing fields gracefully — if a sheet column has no value, that field is skipped
 
-## Demo Video
+## Video
 <div>
     <a href="https://www.loom.com/share/744742334f3349909b50520bd0958187">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/744742334f3349909b50520bd0958187-ce6fd7d96c765e50-full-play.gif#t=0.1">
     </a>
   </div>
 
-
+*Note: Video generated with Notebook LM. AI may introduce errors; human oversight applies.*
