@@ -13,7 +13,7 @@ This N8N workflow automates the process of filling multiple PDF forms using data
 ### Manual Process (Before)
 - Open Google Sheet → copy person's data.
 - Open PDF form → paste data field by field.
-- Save filled PDF → rename it → upload to Google Drive
+- Save filled PDF → rename it → upload to Google Drive.
 - Repeat for every form × every person
 
 For **20 people × 20 forms = 400 manual operations** — easily a full day's work.
