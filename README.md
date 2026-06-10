@@ -19,7 +19,7 @@ This N8N workflow automates the process of filling multiple PDF forms using data
 For **20 people × 20 forms = 400 manual operations** — easily a full day's work.
 
 ### Automated Process (After)
-- Trigger the workflow once
+- Trigger the workflow once.
 - All 400 PDFs are filled, named, and uploaded automatically
 - Total time: **minutes, not hours**
 
