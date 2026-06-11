@@ -20,7 +20,7 @@ For **20 people × 20 forms = 400 manual operations** — easily a full day's wo
 
 ### Automated Process (After)
 - Trigger the workflow once.
-- All 400 PDFs are filled, named, and uploaded automatically
+- All 400 PDFs are filled, named, and uploaded automatically.
 - Total time: **minutes, not hours**
 
 ### Time Savings Breakdown
