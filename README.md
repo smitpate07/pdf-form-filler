@@ -88,7 +88,7 @@ Google Drive (Upload filled PDF)
 - Google Sheets with people data and field mapping tab
 - PDF.co account (free tier: 200 credits/month)
 - Google Drive output folder
-- PDFs uploaded to PDF.co file storage
+- PDFs uploaded to PDF.co file storage.
 
 ---
 
