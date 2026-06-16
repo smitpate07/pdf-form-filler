@@ -86,7 +86,7 @@ Google Drive (Upload filled PDF)
 
 - N8N (self-hosted)
 - Google Sheets with people data and field mapping tab.
-- PDF.co account (free tier: 200 credits/month)
+- PDF.co account (free tier: 200 credits/month).
 - Google Drive output folder
 - PDFs uploaded to PDF.co file storage.
 
