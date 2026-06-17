@@ -87,14 +87,14 @@ Google Drive (Upload filled PDF)
 - N8N (self-hosted)
 - Google Sheets with people data and field mapping tab.
 - PDF.co account (free tier: 200 credits/month).
-- Google Drive output folder
+- Google Drive output folder.
 - PDFs uploaded to PDF.co file storage.
 
 ---
 
 ## Notes
 
-- PDF.co output URLs expire after 1 hour — the Download and Upload nodes must run immediately after the fill step
+- PDF.co output URLs expire after 1 hour — the Download and Upload nodes must run immediately after the fill step.
 - Free plan supports up to 200 API credits/month — each form fill costs 21 credits for 1 page.
 - The workflow handles missing fields gracefully — if a sheet column has no value, that field is skipped
 
