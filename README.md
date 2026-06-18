@@ -96,7 +96,7 @@ Google Drive (Upload filled PDF)
 
 - PDF.co output URLs expire after 1 hour — the Download and Upload nodes must run immediately after the fill step.
 - Free plan supports up to 200 API credits/month — each form fill costs 21 credits for 1 page.
-- The workflow handles missing fields gracefully — if a sheet column has no value, that field is skipped
+- The workflow handles missing fields gracefully — if a sheet column has no value, that field is skipped.
 
 ## Video
 <div>
