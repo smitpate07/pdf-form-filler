@@ -84,7 +84,7 @@ Google Drive (Upload filled PDF)
 
 ## Prerequisites
 
-- N8N (self-hosted)
+- N8N (self-hosted).
 - Google Sheets with people data and field mapping tab.
 - PDF.co account (free tier:~ 200 credits/month).
 - Google Drive output folder.
