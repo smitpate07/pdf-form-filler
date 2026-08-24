@@ -105,4 +105,4 @@ Google Drive (Upload filled PDF)
     </a>
   </div>
 
-*Note: Video generated with Notebook LM. AI may introduce errors; human oversight applies.*
+*Note: Video generated with Notebook LM. AI may introduce errors, human oversight applies.*
