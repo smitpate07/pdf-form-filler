@@ -6,7 +6,7 @@
 
 This N8N workflow automates the process of filling multiple PDF forms using data from Google Sheets and PDF.co API. What previously took hours of manual data entry now runs automatically — filling every form for every person in minutes, with zero human intervention.
 
----
+----
 
 ## How It Saves Time
 
@@ -32,7 +32,7 @@ For **20 people × 20 forms = 400 manual operations** — easily a full day's wo
 | Fill 20 forms for 20 people | ~2,000 mins | ~20 minutes |
 | Human errors | Frequent | Zero |
 
----
+----
 
 ## Real-World Use Cases
 
