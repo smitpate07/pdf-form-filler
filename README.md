@@ -80,7 +80,7 @@ Google Drive (Upload filled PDF)
 ```
 
 ![Flow](images/flow.png)
----
+----
 
 ## Prerequisites
 
@@ -90,7 +90,7 @@ Google Drive (Upload filled PDF)
 - Google Drive output folder.
 - PDFs uploaded to PDF.co file storage.
 
----
+----
 
 ## Notes
 
