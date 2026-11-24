@@ -59,7 +59,7 @@ For **20 people × 20 forms = 400 manual operations** — easily a full day's wo
 
 **Solution:** Data is entered once in Google Sheets and flows automatically into every form. The Code node reads values programmatically, eliminating transcription errors entirely.
 
----
+----
 
 ## Workflow Architecture
 
